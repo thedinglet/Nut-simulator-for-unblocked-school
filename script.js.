@@ -1,0 +1,6 @@
+let nutCount = 0;
+
+document.getElementById('nutButton').addEventListener('click', function() {
+    nutCount++;
+    document.getElementById('nutCount').textContent = nutCount;
+});
